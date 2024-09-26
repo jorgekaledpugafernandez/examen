@@ -1,4 +1,4 @@
-# variable for your name 
+1,2,3 # variable for your name 
 paterno = input("Ingresa tu apellido paterno paterno: ")# muestra que el usario ingresa las variable y desplegar
 materno = input("Ingresa tu apellido paterno materno: ")# muestra que el usario ingresa las variable y desplegar
 nombre = input("Ingresa tu nombre: ")# muestra que el usario ingresa las variable y desplegar
@@ -20,7 +20,7 @@ print("Nomvbre completo en mayusculas:", nombre_completo_mayusculas))# aqui creo
 ![image](https://github.com/user-attachments/assets/39677f06-7285-45d6-a5de-653b3b68e3b2)
 
 
-# Algoritmo para leer tres valores y determinar el mayor y el menor
+4# Algoritmo para leer tres valores y determinar el mayor y el menor
 
 # 1. leer los tres valores y almacenarlos en las variables A, B, C
 A = int(input("Introduce el valor de A: "))# muestra el introcion de el valor de A
@@ -49,5 +49,17 @@ if C < menor:
 print("El mayor de los tres valores es:", mayor)
 print("El menor de los tres valores:", menor)    
 ![image](https://github.com/user-attachments/assets/945a740f-e449-4159-8d7c-660b324f7c42)
+
+5# capturamos dos valores desde el teclado 
+valor1 = float(input("Introduce el primer valor: "))
+valor2 = float(input("Introduce el segundo valor: "))
+
+# Determinamos cual es el menor 
+if valor1 < valor2: 
+    print(f"El menor valor es: {valor1}")
+elif valor2 < valor1: 
+    print(f"El menor valor es:{valor2}")
+else:
+    print("Ambos valores son iguales")
 
 
