@@ -130,7 +130,8 @@ for i in range(1, n + 1):
 
 # Mostrar el resultado
 print(f"El factorial de {n} es {factorial}.")# Finalmente, muestra el resultado del cálculo del factorial en la consola.
-![image](https://github.com/user-attachments/assets/b95e1eae-9d70-49e2-82ec-221dd22de6cb)
+![image](https://github.com/user-attachments/assets/cf491152-4688-43a5-b01c-176a1144642a)
+
 
 
 
