@@ -61,5 +61,83 @@ elif valor2 < valor1:
     print(f"El menor valor es:{valor2}")
 else:
     print("Ambos valores son iguales")
+    ![image](https://github.com/user-attachments/assets/76f22caa-ac3b-4e56-b1b2-68b979bbf7f3)
+
+5.2 # Capturamos dos números a sumar
+num1 = float(input("Introduce el primer número: "))# ingresa  numero
+num2 = float(input("Introduce el segundo número: "))# ingresa numero
+
+# Sumamos ambos números
+suma = num1 + num2
+
+# Mostramos el resultado
+print(f"La suma de {num1} y {num2} es: {suma}")# muestra resultado de los valores
+    ![image](https://github.com/user-attachments/assets/15d3356a-ad73-44a4-9ca6-3a6fdd0e52ad)
+
+6 # Capturamos la base y la altura del rectángulo
+base = float(input("Introduce la base del rectángulo: "))# muestra que sacar la base de area
+altura = float(input("Introduce la altura del rectángulo: "))# muestra que sacar la base de area
+
+# Calculamos el área y el perímetro
+area = base * altura
+perimetro = 2 * (base + altura)
+
+# Mostramos el área y el perímetro
+print(f"El área del rectángulo es: {area}")# muestra que el area saca el rectangulo es tal tal
+print(f"El perímetro del rectángulo es: {perimetro}")# muestra que el area saca el rectangulo es tal tal
+    ![image](https://github.com/user-attachments/assets/6d4d4345-f6b4-49d9-9574-b04cf2a5bf70)
+
+7 # Capturamos un número natural
+numero = int(input("Introduce un número natural: "))# muestra el ingresa un valor
+
+# Verificamos si está dentro del rango 1 a 12
+if 1 <= numero <= 12:
+    print(f"El número {numero} está dentro de la primera docena de números naturales.")# ingresa que le pimera docena de numero 
+else:
+    print(f"El número {numero} no está dentro de la primera docena de números naturales.")(f"El número {numero} está dentro de la primera docena de números naturales.")# ingresa que le pimera docena de numero 
+    ![image](https://github.com/user-attachments/assets/c8fe2f73-a567-4787-b9a4-70323d3a274c)
+
+8 # Ingresar un número natural por teclado
+numero = int(input("Ingrese un número natural: "))# Muestra un mensaje en la consola pidiendo al usuario que ingrese un número
+
+# Verificar si es par o impar
+if numero % 2 == 0:# 
+    print(f"El número {numero} es par.")# Muestra el texto en la consola. El uso de la f antes de las comillas permite insertar el valor de la variable numero dentro del texto.
+else:# Si la condición del if no se cumple (el número no es par), se ejecuta el bloque de código dentro del else
+    print(f"El número {numero} es impar.")# Muestra que el número es impar si la condición del if no se cumplió.
+    ![image](https://github.com/user-attachments/assets/a381ea58-ed9e-4886-aa39-20eccc79e561)
+
+
+9 # Ingresar un número entero por teclado
+numero = int(input("Ingrese un número entero: "))# lo convierte de texto a entero, guardando el valor en la variable numero.
+
+# Verificar si es divisible por 7 y mayor a 40
+if numero % 7 == 0 and numero > 40:
+    print(f"El número {numero} es divisible por 7 y es mayor a 40.")# Si ambas condiciones se cumplen, muestra este mensaje en la consola.
+
+else# las dos condiciones no se cumple (o el número no es divisible por 7 o no es mayor a 40), se ejecuta el bloque de código dentro del else.
+    print(f"El número {numero} no cumple con ambas condiciones (divisible por 7 y mayor a 40).")# Muestra este mensaje si las condiciones no se cumplen.
+![image](https://github.com/user-attachments/assets/88db779f-1eae-437b-946c-0ed7c2d21db8)
+
+
+10 # Ingresar un número entero por teclado
+n = int(input("Ingrese un número entero: "))# Pide al usuario que ingrese un número entero y lo convierte en un valor numérico almacenado en la variable n.
+
+# Calcular el factorial
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+
+# Mostrar el resultado
+print(f"El factorial de {n} es {factorial}.")# Finalmente, muestra el resultado del cálculo del factorial en la consola.
+![image](https://github.com/user-attachments/assets/b95e1eae-9d70-49e2-82ec-221dd22de6cb)
+
+
+
+
+
+
+
+
 
 
